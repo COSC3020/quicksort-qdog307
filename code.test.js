@@ -13,3 +13,11 @@ const testSort =
     });
 
 jsc.assert(testSort);
+
+console.log(quicksort([3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5])); 
+console.log(quicksort([1, 2, 3, 4, 5])); 
+console.log(quicksort([5, 4, 3, 2, 1])); 
+console.log(quicksort([])); 
+console.log(quicksort([42])); 
+console.log(quicksort([5, 1, 2, 5, 1])); 
+console.log(quicksort([-3, -1, -4, -1, -5, -9, -2, -6, -5, -3, -5])); 
